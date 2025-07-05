@@ -21,7 +21,7 @@ body{
   max-width:1000px;
   overflow: hidden;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   height: 400px;
 }
 
@@ -64,7 +64,7 @@ width: 50%;
 }
 @madia(max-width:767px){
 .container{
-  flex-direction: column-reverse;
+  flex-direction: row;
 }
 }
 
